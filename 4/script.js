@@ -1,3 +1,10 @@
-$(".container").on("contextmenu",function(){
-    return false;
-});
+let flag = true;
+for(let item of $("tr")){
+    if(flag){
+        item.style.backgroundColor = "#ccc";
+    }else {
+        item.style.backgroundColor = "#fff";
+    }
+    flag = !flag;
+    console.log(item);
+}

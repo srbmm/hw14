@@ -10,8 +10,17 @@
     align-items: center;
     height: 100vh;
     background: #1e9f60;
-    text-align: left;
 }
-td,th{
-  padding: 0.5rem;
+#btn{
+    background: #4792e8;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    width: 400px;
+    outline: none;
+    border: none;
+    color: white;
+}
+#btn:hover{
+    transition: 0.25s;
+    background: #2b7bda;
 }

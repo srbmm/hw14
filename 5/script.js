@@ -1,10 +1,9 @@
 let flag = true;
-for(let item of $("tr")){
-    if(flag){
-        item.style.backgroundColor = "#ccc";
+$("#btn").on("click", e => {
+    if (flag) {
+        e.target.textContent = "Log Out";
     }else {
-        item.style.backgroundColor = "#fff";
+        e.target.textContent = "Log In";
     }
     flag = !flag;
-    console.log(item);
-}
+});

@@ -1,1 +1,3 @@
-setInterval(() => $("#text").animate({opacity: 'toggle'}), 1500)
+$(".container").on("contextmenu",function(){
+    return false;
+});

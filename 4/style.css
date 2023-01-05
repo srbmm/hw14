@@ -10,5 +10,8 @@
     align-items: center;
     height: 100vh;
     background: #1e9f60;
-    color: #dedede;
+    text-align: left;
+}
+td,th{
+  padding: 0.5rem;
 }
